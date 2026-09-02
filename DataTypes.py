@@ -6,9 +6,11 @@
 #Tuple
 #Dictionary
 
-#List
+######################################## List ########################################
+#1 List is Mutable, as we can update data
 values = [1, 2, "dheeraj", 4, 5]
 
+print("######################################## List ########################################")
 print("Values : ", values)
 print(type(values))
 print(values[0]) #Value at index 0
@@ -31,3 +33,22 @@ values[3] = "gangalakurthi"
 del values[0]
 
 print("Updated values: ", values)
+
+######################################## Tuple ########################################
+#1 Tuple is immutable and cannot be updated once declared
+
+print("######################################## Tuple ########################################")
+tupleValues = (1, 2, "dheeraj", 3.4)
+print(tupleValues)
+
+print(tupleValues[2])
+
+######################################## Dictionary ########################################
+#1 Key value pair data type
+
+dic = {1: "firstName", 2:"lastName", "age":33}
+print("######################################## Dictionary ########################################")
+print(dic)
+print(dic[1])
+print(dic[2])
+print(dic["age"])
